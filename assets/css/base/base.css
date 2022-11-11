@@ -1,5 +1,5 @@
-@import url(_reset.css);
-@import url(_variables.css);
+@import url(reset.css);
+@import url(variables.css);
 
 body {
   background-color: var(--secondary-color);
@@ -9,8 +9,8 @@ body {
 }
 
 .container {
-  padding-right: 1rem;
   padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .flex {
@@ -28,8 +28,8 @@ body {
 
 @media (min-width: 800px) {
   .container {
-    padding-right: 2.5rem;
     padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 }
 
